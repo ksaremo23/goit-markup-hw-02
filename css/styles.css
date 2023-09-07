@@ -6,16 +6,14 @@
     --ocean: #404BBF;
 }
 
-p,
 body {
     /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 150% */
+    line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    color: var(--slate, #434455);
+    background-color: var(--white, #FFF);
 }
 
 .web-header {
@@ -23,9 +21,9 @@ body {
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.167; /* 21px*/
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -35,9 +33,9 @@ body {
     color: var(--navyblue, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.167; /* 21px*/
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -47,9 +45,9 @@ body {
     color: var(--iris, #4D5AE5);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
-    line-height: 21px; /* 116.667% */
+    line-height: 1.167; /* 21px*/
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -59,9 +57,9 @@ body {
     color: var(--cloud, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 800;
-    line-height: 21px;/* 116.667% */
+    line-height: 1.167; /* 21px*/
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -74,16 +72,53 @@ body {
     color: var(--iris, #4D5AE5);
 }
 
-.nav-links a:active {
-    color: var(--iris, #4D5AE5);
-}
-
 .nav-links a:focus {
     color: var(--iris, #4D5AE5);
 }
 
 .nav-links a {
     color: var(--navyblue, #2E2F42);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 1.5 ;/*24px */
+    letter-spacing: 0.32px;
+}
+
+.nav-links a:active {
+    color: var(--ocean, #404BBF);
+
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 1.5; /*24px */
+    letter-spacing: 0.32px;
+}
+
+.contacts a {
+    color: var(--slate, #434455);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    line-height: 1.5; /*24px */
+    letter-spacing: 0.32px;
+}
+
+.contacts a:active {
+    color: var(--ocean, #404BBF);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    line-height: 1.5; /*24px */
+    letter-spacing: 0.32px;
 }
 
 .contacts a:hover {
@@ -105,26 +140,54 @@ body {
 .hero-heading {
     color: var(--white, #FFF);
     text-align: center;
-}
 
-h1 {
     /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
-    line-height: 60px;
-    /* 107.143% */
+    line-height: 1.071; /* 60px */
     letter-spacing: 1.12px;
 }
 
+
 .feature-title{
     color: var(--navyblue, #2E2F42);
+    
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: 0.4px;
+}
+
+.sub-header-title{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 1.11; /* 40px */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 .card-body-name {
     color: var(--navyblue, #2E2F42);
-    text-align: center;
+
+    
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 1.2;/* 24px */
+    letter-spacing: 0.4px;
 }
 
 .card-body-description {
@@ -132,16 +195,15 @@ h1 {
     text-align: center;
 }
 
-h3 {
+/* h3 {
     /* Header 3 */
-    font-family: Roboto;
+    /* font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    /* 120% */
-    letter-spacing: 0.4px;
-}
+    line-height: 1.2; /* 24px */
+    /* letter-spacing: 0.4px; */
+/* } */
 
 .feature-description {
     color: var(--slate, #434455);
@@ -149,42 +211,15 @@ h3 {
 
 
 
-button {
-    /* Layut */
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    /* Style */
-    border-radius: 4px;
-    background: var(--iris, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+.order-btn {
+    color: var(--white, #FFF);
     /* Button Text */
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 500;
-    line-height: 24px;
-    /* 150% */
+    line-height: 1.5; /* 24px*/
     letter-spacing: 0.64px;
-}
-
-button:hover {
-    cursor: pointer;
-    background: var(--ocean, #404BBF);
-}
-
-.order-btn {
-    color: var(--white, #FFF);
-    
-    /* Button Text */
-    /* font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; 
-    /* 150% */
-    /* letter-spacing: 0.64px; */
     /* Layout */
     display: inline-flex;
     padding: 16px 32px;
@@ -194,6 +229,11 @@ button:hover {
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.order-btn:hover {
+    background: var(--ocean, #404BBF);
+    cursor: pointer;
 }
 
 .order-btn:focus {
@@ -211,10 +251,9 @@ button:hover {
     /* Header 2 */
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
-    line-height: 40px;
-    /* 111.111% */
+    line-height: 1.11; /*40px*/
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -237,7 +276,7 @@ button:hover {
 /* PORTFOLIO */
 
 
-.filter-btn {
+/* .filter-btn {
     /* Layout */
     /* display: flex;
     padding: 12px 24px;
@@ -246,9 +285,9 @@ button:hover {
     /* border-radius: 4px;
     background: var(--ocean, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); */
-}
+/* } */ 
 
-.filter-btn > li > button {
+/* .filter-btn > li > button {
     color: var(--white, #FFF);
     text-align: center;
 
@@ -260,10 +299,50 @@ button:hover {
     line-height: 24px; */
     /* 150% */
     /* letter-spacing: 0.64px; */
+/* } */ 
+
+.filter-btn>li>button {
+    color: var(--white, #FFF);
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 1.50; /* 24px */
+    letter-spacing: 0.64px;
+    /* Layout */
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    /* Style */
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.filter-btn>li>button:hover {
+    background: var(--ocean, #404BBF);
+    cursor: pointer;
+}
+
+.filter-btn>li>button:focus {
+    background: var(--ocean, #404BBF);
+}
+
+.filter-btn>li>button:active {
+    background: var(--ocean, #404BBF);
 }
 
 .project-card-title {
     color: var(--navyblue, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 1.2; /* 24px */
+    letter-spacing: 0.4px;
 }
 
 .project-card-detail {
